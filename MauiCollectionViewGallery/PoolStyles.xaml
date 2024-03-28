@@ -14,9 +14,9 @@
     <local:ObjectToBoolConverter x:Key="ObjectToBoolConverter"/>
     <local:ChemicalLogToFormattedTextConverter x:Key="ChemicalLogToFormattedTextConverter"/>
 		<local:CostLogToFormattedTextConverter x:Key="CostLogToFormattedTextConverter" />
-		<!--<local:NullableDoubleToTemperatureConverter x:Key="NullableDoubleToTemperatureConverter" />
+		<local:NullableDoubleToTemperatureConverter x:Key="NullableDoubleToTemperatureConverter" />
 		<local:NullableIntToPercentConverter x:Key="NullableIntToPercentConverter" />
-		<local:PumpScheduleChangeLogToSegmentsConverter x:Key="PumpScheduleChangeLogToSegmentsConverter" />
+		<!--<local:PumpScheduleChangeLogToSegmentsConverter x:Key="PumpScheduleChangeLogToSegmentsConverter" />
 		<local:PumpScheduleSegmentToStringConverter x:Key="PumpScheduleSegmentToStringConverter" />-->
 		<local:MaintLogToTimelineVisibilityConverter x:Key="MaintLogToTimelineVisibilityConverter" />
 		<!--<local:InvertedBoolConverter x:Key="InvertedBoolConverter" />-->

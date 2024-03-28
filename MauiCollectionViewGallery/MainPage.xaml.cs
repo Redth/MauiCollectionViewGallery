@@ -15,8 +15,12 @@ namespace MauiCollectionViewGallery
 			var page = new PoolPage();
 			await page.LoadLogs();
 
-			await this.Navigation.PushAsync(page, true);
-        }
+			try {
+				await this.Navigation.PushAsync(page, true);
+			} catch (Exception ex) {
+				Console.WriteLine(ex);
+        	}
+		}
     }
 
 }
